@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditya-portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/095cb2fc28.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img class="adi" src="images/logo3.jpeg" alt="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu() "></i>
+            </nav>
+            <div class="header-text ">
+                <p>student</p>
+                <h1>Hi,I'm <span>Aditya</span><br> Pathak from India </h1>
+            </div>
+
+        </div>
+    </div>
+    <!-- ---------------------------about---------------------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user2.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Hello! I'm Aditya Santosh Pathak, a student of third year computer science in mumbai. With a passion for computers and working on them, I navigate through life with curiosity and a desire for continuous learning. Whether I'm immersed
+                        in computing or exploring new avenues, I find joy in the journey of personal and professional growth. Outside of work, you can often find me in sports activities, playing video games, or simply enjoying a good book.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills') ">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience') ">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education') ">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>MYsql</span><br>querying and manipulating databases</li>
+                            <li><span>Web Development</span><br> Web/app development</li>
+                            <li><span>python</span><br>For AI/ML using purpose</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>mysql</span><br>certificate from udemy and IIT bombay spoken tutorial</li>
+                            <li><span>Web development bootcamp</span><br>certificate from udemy and IIT bombay spoken tutorial </li>
+                            <li><span>100 days of python code</span><br>certificate from udemy and IIT bombay spoken tutorial</li>
+                            <li><span>AI/ML</span><br>persuing certificate from udemy</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2007-2019</span><br>Schooled at Seth Juggilal Poddar Academy</li>
+                            <li><span>2019-2021</span><br>colleged at mithibai college</li>
+                            <li><span>2021-2024</span><br>computer science </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------------------services---------------------------  -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-sharp fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>designing web pages </p>
+                    <a href="# ">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>SQL databases</h2>
+                    <p>my sql commands and querying</p>
+                    <a href="# ">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-apple-whole"></i>
+                    <h2>python</h2>
+                    <p>using tkinter,common python commands and AI/ML</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!----------------------portfolio ----------------------------------->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="work-list">
+                <div class="work"><img src="images/work-1.png " alt=" ">
+                    <div class="layer">
+                        <h3>social media app</h3>
+                        <p>the app connects you to the talented people around the world</p>
+                        <a href="# "><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work"><img src="images/work-2.png " alt=" ">
+                    <div class="layer">
+                        <h3>music app</h3>
+                        <p>the app connects you to the talented people around the world</p>
+                        <a href="# "><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work"><img src="images/work-3.png " alt=" ">
+                    <div class="layer">
+                        <h3>online shopping app</h3>
+                        <p>the app connects you to the talented people around the world</p>
+                        <a href="# "><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="$ " class="btn">see more</a>
+        </div>
+    </div>
+
+    <!-----------------------------------------Contact-------------------------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-regular fa-envelope"></i>adityapathak987@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>8591451308</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/aditya.pathak.9655 "><i class="fa-brands fa-facebook-f "></i></a>
+                        <a href="https://twitter.com/ADIdoesCare "><i class="fa-brands fa-x-twitter "></i></a>
+                        <a href="https://www.instagram.com/aditya.pathak_/ "><i class="fa-brands fa-instagram "></i></a>
+                        <a href="https://github.com/eddytiya "><i class="fa-brands fa-github-alt "></i></a>
+                        <a href="https://www.linkedin.com/in/aditya-pathak-9840a9251/ "><i class="fa-brands fa-linkedin-in "></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf " download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright<i class="fa-regular fa-copyright"></i> to Eddytiya<i class="fa-regular fa-heart "></i></p>
+        </div>
+    </div>
+
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemeu.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemeu.style.right = "-200px";
+        }
+    </script>
+
+    <form name="submit-to-google-sheet">
+        <input name="email" type="email" placeholder="Email" required>
+        <button type="submit">Send</button>
+    </form>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwQ0Ap-vBI1SLAWRazd3dKe2UMjqWogzVKteinu2N7oqoLJALnNscm2vhz9WIa0wsHhJw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, {
+                    method: 'POST',
+                    body: new FormData(form)
+                })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function() {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
